@@ -66,7 +66,7 @@ const Contact = () => {
         { x: 0 },
         {
           x: "100%",
-          duration: 2.5,
+          duration: 5,
           ease: "none",
           scrollTrigger: {
             trigger: sectionRef.current,
