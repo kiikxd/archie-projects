@@ -46,7 +46,8 @@ const Project = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative h-auto py-10 md:py-0 bg-white overflow-hidden"
+      className="relative h-auto py-10 md:py-0 bg-white overflow-hidden" 
+      id="project"
     >
       <div className="h-auto md:min-h-screen text-costum-black flex flex-col items-center justify-between py-10 md:py-32">
         <p className="text-center text-xl md:text-2xl leading-[29.05px]">

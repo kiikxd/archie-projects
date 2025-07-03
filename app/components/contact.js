@@ -82,28 +82,29 @@ const Contact = () => {
   return (
     <section
       ref={sectionRef}
-      className="min-h-screen w-full overflow-hidden flex flex-col py-16 md:py-32 lg:py-64 relative text-costum-black bg-white"
+      className="min-h-screen w-full overflow-hidden flex flex-col py-16 md:py-32 lg:py-48 xl:py-64 relative text-costum-black bg-white"
+      id="contact"
     >
-      <div className="flex flex-col px-4 md:px-8 lg:px-[100px] justify-between items-start md:items-start lg:flex-row">
+      <div className="flex flex-col px-4 md:px-8 lg:px-[100px] xl:px-[180px] justify-between items-start md:items-start lg:flex-row">
         <h1
           ref={titleRef}
-          className="text-3xl md:text-5xl lg:text-[64px] max-w-full md:max-w-[600px] lg:max-w-[700px] leading-tight"
+          className="text-3xl md:text-5xl lg:text-[56px] xl:text-[64px] max-w-full md:max-w-[600px] lg:max-w-[700px] leading-tight"
         >
           Ready to transform your space?
         </h1>
         <button
           ref={buttonRef}
-          className="mt-4 md:mt-6 lg:mt-0 flex items-center space-x-2 text-xl md:text-2xl"
+          className="mt-4 md:mt-6 lg:mt-0 flex items-center space-x-2 text-xl md:text-2xl lg:text-3xl xl:text-4xl"
         >
           <p>Contact us today</p>
           <img src="./assets/icons/arrow.svg" alt="Contact Button" />
         </button>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 pl-4 md:pl-8 lg:pl-[100px] pb-10 md:pb-20 lg:pb-64 overflow-hidden">
+      <div className="absolute bottom-0 left-0 right-0 pl-4 md:pl-8 lg:pl-[100px] xl:pl-[180px] pb-10 md:pb-20 lg:pb-48 xl:pb-64 overflow-hidden">
         <h1
           ref={textRef}
-          className="text-4xl md:text-[80px] lg:text-[160px] w-full md:w-[200vw] lg:w-[200vw] font-normal text-left leading-tight md:leading-[120px] lg:leading-[193.64px]"
+          className="text-4xl md:text-[80px] lg:text-[120px] xl:text-[160px] w-full md:w-[200vw] lg:w-[200vw] font-normal text-left leading-tight md:leading-[120px] lg:leading-[160px] xl:leading-[193.64px]"
         >
           Let's Create
           <span className="font-play-fair italic">Your Vision</span> Together

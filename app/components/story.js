@@ -46,17 +46,21 @@ const Story = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="flex flex-col bg-white px-4">
+    <section 
+      ref={sectionRef} 
+      className="flex flex-col bg-white px-4" 
+      id="story"
+    >
       <div
         ref={containerRef}
-        className="min-h-screen flex flex-col items-center justify-center mt-16 md:mt-[180px]"
+        className="min-h-screen flex flex-col items-center justify-center mt-16 md:mt-[180px] lg:mt-[120px] xl:mt-[180px]"
       >
-        <p className="text-center text-costum-black text-2xl md:text-[28px]">
+        <p className="text-center text-costum-black text-2xl md:text-[28px] lg:text-[32px] xl:text-[36px]">
           Our Story
         </p>
         <span
           ref={textRef}
-          className="text-center text-costum-black mt-8 md:mt-16 text-2xl md:text-[48px] leading-snug md:leading-normal max-w-full md:max-w-[882px]"
+          className="text-center text-costum-black mt-8 md:mt-16 lg:mt-12 xl:mt-16 text-2xl md:text-[48px] lg:text-[40px] xl:text-[48px] leading-snug md:leading-normal max-w-full md:max-w-[882px]"
         >
           We don't just design spaces, we weave narratives. Established in 2009,
           our journey in the world of architecture and interior design has been

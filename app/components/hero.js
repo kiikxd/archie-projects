@@ -52,22 +52,22 @@ const Hero = () => {
   return (
     <main
       ref={sectionRef}
-      className="relative flex h-screen items-center justify-center overflow-hidden text-custom-white"
+      className="relative flex min-h-screen h-screen items-center justify-center overflow-hidden text-custom-white p-0 m-0"
     >
       <div
         ref={bgRef}
-        className="absolute w-full h-full bg-cover bg-center"
-        style={{ backgroundImage: "url(./assets/images/background.png)" }}
+        className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+        style={{ backgroundImage: "url(./assets/images/background.jpg)" }}
       ></div>
       <div className="absolute bottom-48 md:bottom-48 lg:bottom-20 left-4 md:left-9 lg:left-20 text-left max-w-full px-4">
         <h1
           ref={h1Ref}
-          className="text-4xl md:text-[75px] lg:text-[100px] leading-tight mb-4 md:mb-4"
+          className="text-4xl md:text-[75px] lg:text-[70px] xl:text-[100px] leading-tight mb-4 md:mb-4"
         >
           Unveiling{" "}
           <span
             ref={spanRef}
-            className="italic font-play-fair text-4xl md:text-[75px] lg:text-[100px]"
+            className="italic font-play-fair text-4xl md:text-[75px] lg:text-[70px] xl:text-[100px]"
           >
             Timeless Elegance
           </span>
@@ -76,10 +76,10 @@ const Hero = () => {
         </h1>
       </div>
 
-      <div className="absolute bottom-10 md:bottom-20 ml-8 md:left-6 lg:left-auto right-4 lg:right-24 text-custom-white max-w-full md:max-w-md">
+      <div className="absolute bottom-10 md:bottom-20 ml-8 md:left-6 lg:left-auto right-4 lg:right-16 xl:right-24 text-custom-white max-w-full md:max-w-md">
         <p
           ref={pRef}
-          className="text-sm md:text-[16px] leading-relaxed mb-12 md:mb-6"
+          className="text-sm md:text-[16px] lg:text-[14px] xl:text-[16px] leading-relaxed mb-12 md:mb-2 xl:mb-6"
         >
           Where design meets innovation, and spaces come alive with beauty. As
           architects, we blend design and function into the human environment,

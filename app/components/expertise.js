@@ -55,9 +55,10 @@ const Expertise = () => {
   return (
     <section
       ref={sectionRef}
-      className="h-auto md:min-h-screen flex flex-col justify-between pt-5 px-6 sm:px-10 md:px-0 md:pt-32 overflow-hidden"
+      className="h-auto md:min-h-screen flex flex-col justify-between px-6 sm:px-10 md:px-0 overflow-hidden bg-white"
+      id="expertise"
     >
-      <p className="text-center text-custom-gray mb-16 text-xl md:text-2xl leading-[29.05px]">
+      <p className="text-center text-black mb-16 text-xl md:text-2xl lg:text-[32px] xl:text-4xl leading-[29.05px]">
         Our Expertise
       </p>
 
@@ -69,13 +70,13 @@ const Expertise = () => {
             className="w-full h-full object-cover bg-no-repeat"
             alt="Architectural Expertise"
           />
-          <div className="absolute inset-0 flex flex-col items-center justify-center p-4 md:p-6 lg:p-8">
+          <div className="absolute inset-0 flex flex-col items-center justify-center p-4 md:p-6 lg:p-12 xl:p-16">
             <h1 
             ref={h1LeftRef} 
-            className="text-xxl4 sm:text-xxl4 md:text-[60px] lg:text-[80px] xl:text-xxl10">
+            className="text-xxl4 sm:text-xxl4 md:text-[60px] lg:text-[80px] xl:text-[100px]">
               Archi<span className="font-play-fair italic">tectural</span>
             </h1>
-            <p ref={pLeftRef} className="text-xs sm:text-sm md:text-base text-center pt-4 md:pt-8 lg:pt-12 px-6 sm:px-12 md:px-16 lg:px-[100px] xl:px-[150px]">
+            <p ref={pLeftRef} className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-center pt-4 md:pt-8 lg:pt-12 xl:pt-16 px-6 sm:px-12 md:px-16 lg:px-[100px] xl:px-[150px]">
               With a team of visionary architects, we embark on the journey of
               architectural innovation. From conceptualization to execution, we
               push the boundaries of design, creating structures that seamlessly
@@ -90,13 +91,13 @@ const Expertise = () => {
             className="w-full h-full object-cover"
             alt="Interior Design Expertise"
           />
-          <div className="absolute inset-0 flex flex-col items-center justify-center p-4 md:p-6 lg:p-8">
+          <div className="absolute inset-0 flex flex-col items-center justify-center p-4 md:p-6 lg:p-12 xl:p-16">
             <h1 
             ref={h1RightRef}
-             className="text-xxl4 sm:text-xxl4 md:text-[60px] md:text-center lg:text-[80px] xl:text-xxl10">
+             className="text-xxl4 sm:text-xxl4 md:text-[60px] md:text-center lg:text-[80px] xl:text-[100px]">
               Interior <span className="font-play-fair italic">Design</span>
             </h1>
-            <p ref={pRightRef} className="text-xs sm:text-sm md:text-base text-center pt-4 md:pt-8 lg:pt-12 px-6 sm:px-12 md:px-16 lg:px-[100px] xl:px-[150px]">
+            <p ref={pRightRef} className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-center pt-4 md:pt-8 lg:pt-12 xl:pt-16 px-6 sm:px-12 md:px-16 lg:px-[100px] xl:px-[150px]">
               Our interior design team is a symphony of creativity and
               functionality. We curate interiors that tell stories, where each
               element is thoughtfully chosen to enhance the overall aesthetic
