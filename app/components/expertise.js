@@ -46,16 +46,16 @@ const Expertise = () => {
       },
     });
 
-      tl2.to(h1LeftRef.current, { xPercent: 0, opacity: 1, duration: 2 });
-      tl2.to(h1RightRef.current, { xPercent: 0, opacity: 1, duration: 2 }), "+=5";
-      tl2.to(pLeftRef.current, { opacity: 1, duration: 2 });
-      tl2.to(pRightRef.current, { opacity: 1, duration: 2 }, "-=0.5");
+      tl2.to(h1LeftRef.current, { xPercent: 0, opacity: 1, duration: 1.5 });
+      tl2.to(h1RightRef.current, { xPercent: 0, opacity: 1, duration: 1.5 });
+      tl2.to(pLeftRef.current, { opacity: 1, duration: 1.5 });
+      tl2.to(pRightRef.current, { opacity: 1, duration: 1.5 });
   }, {scope: sectionRef});
 
   return (
     <section
       ref={sectionRef}
-      className="h-auto md:min-h-screen flex flex-col justify-between px-6 sm:px-10 md:px-0 overflow-hidden bg-white"
+      className="h-auto md:min-h-screen flex flex-col justify-between px-4 md:px-0 overflow-hidden bg-white"
       id="expertise"
     >
       <p className="text-center text-black mb-16 text-xl md:text-2xl lg:text-[32px] xl:text-4xl leading-[29.05px]">
@@ -76,7 +76,7 @@ const Expertise = () => {
             className="text-xxl4 sm:text-xxl4 md:text-[60px] lg:text-[80px] xl:text-[100px]">
               Archi<span className="font-play-fair italic">tectural</span>
             </h1>
-            <p ref={pLeftRef} className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-center pt-4 md:pt-8 lg:pt-12 xl:pt-16 px-6 sm:px-12 md:px-16 lg:px-[100px] xl:px-[150px]">
+            <p ref={pLeftRef} className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-center pt-4 md:pt-8 lg:pt-12 xl:pt-16 px-6 ">
               With a team of visionary architects, we embark on the journey of
               architectural innovation. From conceptualization to execution, we
               push the boundaries of design, creating structures that seamlessly
@@ -97,7 +97,7 @@ const Expertise = () => {
              className="text-xxl4 sm:text-xxl4 md:text-[60px] md:text-center lg:text-[80px] xl:text-[100px]">
               Interior <span className="font-play-fair italic">Design</span>
             </h1>
-            <p ref={pRightRef} className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-center pt-4 md:pt-8 lg:pt-12 xl:pt-16 px-6 sm:px-12 md:px-16 lg:px-[100px] xl:px-[150px]">
+            <p ref={pRightRef} className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-center pt-4 md:pt-8 lg:pt-12 xl:pt-16 px-6">
               Our interior design team is a symphony of creativity and
               functionality. We curate interiors that tell stories, where each
               element is thoughtfully chosen to enhance the overall aesthetic

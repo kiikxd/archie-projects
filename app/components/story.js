@@ -53,7 +53,7 @@ const Story = () => {
     >
       <div
         ref={containerRef}
-        className="min-h-screen flex flex-col items-center justify-center mt-16 md:mt-[180px] lg:mt-[120px] xl:mt-[180px]"
+        className="min-h-screen flex flex-col items-center justify-center mt-16 "
       >
         <p className="text-center text-costum-black text-2xl md:text-[28px] lg:text-[32px] xl:text-[36px]">
           Our Story

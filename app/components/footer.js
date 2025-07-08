@@ -55,7 +55,7 @@ const Footer = () => {
       ref={footerRef}
       className="flex flex-col min-h-screen bg-[#246FA6] text-custom-white"
     >
-      <div className="flex items-center justify-center pt-28 md:pt-[200px] lg:pt-[160px] xl:pt-[200px] px-4 md:px-[100px] lg:px-[180px] xl:px-[220px]">
+      <div className="flex items-center justify-center pt-20 md:pt-[200px] lg:pt-[160px] xl:pt-[200px] px-4 md:px-[100px] lg:px-[180px]">
         <img
           ref={logoRef}
           src="./assets/icons/Archie-Studio.svg"
@@ -64,7 +64,7 @@ const Footer = () => {
         />
       </div>
 
-      <div className="flex flex-col md:flex-row gap-10 md:gap-0 justify-between px-4 md:px-[60px] lg:px-[120px] xl:px-[180px] mt-8 md:mt-[280px] lg:mt-[180px] xl:mt-[280px]">
+      <div className="flex flex-col md:flex-row gap-10 md:gap-0 justify-between px-4 md:px-[60px] lg:px-[120px] mt-8 md:mt-[280px] lg:mt-[180px]">
         <div className="flex flex-col md:flex-row gap-10 md:gap-5 md:mb-0">
           <div className="flex flex-col">
             <h3
@@ -164,14 +164,14 @@ const Footer = () => {
       </div>
 
       <div
-        className="flex flex-col md:flex-row justify-between items-center mt-8 md:mt-[172px] lg:mt-[120px] xl:mt-[172px] md:mb-8 text-sm md:text-base lg:text-lg xl:text-xl px-4 md:px-12 lg:px-24 xl:px-32"
+        className="flex flex-col md:flex-row md:flex-wrap justify-between items-center gap-4 mt-8 md:mt-[172px] lg:mt-[120px] xl:mt-[172px] md:mb-8 text-sm md:text-base lg:text-lg xl:text-xl px-4 md:px-12 lg:px-24 xl:px-32"
         ref={createdByRef}
       >
         <div>
           <p>&copy; 2024 Copyright Archie Studio</p>
         </div>
 
-        <div className="flex space-x-4 md:space-x-2 xl:space-x-6">
+        <div className="flex flex-wrap justify-center space-x-4 md:space-x-2 xl:space-x-6">
           <a href="#" className="hover:underline">
             Legal
           </a>
@@ -183,11 +183,11 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="flex space-x-1 md:space-x-2">
+        <div className="flex items-center space-x-1 md:space-x-2">
           <p>Created by |</p>
           <img
             src="./assets/icons/Archie-Studio.svg"
-            className="w-20 md:w-32 h-auto"
+            className="w-14 md:w-16 lg:w-20 xl:w-24 h-auto max-w-[90px]"
           />
         </div>
       </div>

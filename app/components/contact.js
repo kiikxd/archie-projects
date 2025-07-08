@@ -82,7 +82,7 @@ const Contact = () => {
   return (
     <section
       ref={sectionRef}
-      className="min-h-screen w-full overflow-hidden flex flex-col py-16 md:py-32 lg:py-48 xl:py-64 relative text-costum-black bg-white"
+      className="min-h-screen w-full overflow-hidden flex flex-col py-16 md:py-32 lg:py-48 relative text-costum-black bg-white"
       id="contact"
     >
       <div className="flex flex-col px-4 md:px-8 lg:px-[100px] xl:px-[180px] justify-between items-start md:items-start lg:flex-row">
@@ -101,7 +101,7 @@ const Contact = () => {
         </button>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 pl-4 md:pl-8 lg:pl-[100px] xl:pl-[180px] pb-10 md:pb-20 lg:pb-48 xl:pb-64 overflow-hidden">
+      <div className="absolute bottom-0 left-0 right-0 pl-4 md:pl-8 lg:pl-[100px] xl:pl-[180px] pb-10 md:pb-20 lg:pb-48  overflow-hidden">
         <h1
           ref={textRef}
           className="text-4xl md:text-[80px] lg:text-[120px] xl:text-[160px] w-full md:w-[200vw] lg:w-[200vw] font-normal text-left leading-tight md:leading-[120px] lg:leading-[160px] xl:leading-[193.64px]"
